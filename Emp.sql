@@ -1,0 +1,12 @@
+CREATE OR REPLACE TABLE demo_db.public.EMP_TABLE (
+    emp_id INT PRIMARY KEY,
+    first_name STRING,
+    last_name STRING,
+    email STRING,
+    phone_number STRING,
+    hire_date DATE,
+    job_title STRING,
+    department STRING,
+    salary FLOAT,
+    manager_id INT
+);
