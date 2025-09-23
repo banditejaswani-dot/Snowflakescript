@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE demo_db.public.Employee (
+CREATE OR REPLACE TABLE GIT_DB.GITDSC.Employee (
     emp_id INT PRIMARY KEY,
     first_name STRING,
     last_name STRING,
@@ -11,3 +11,4 @@ CREATE OR REPLACE TABLE demo_db.public.Employee (
     manager_id INT
 
 );
+
