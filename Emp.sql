@@ -1,4 +1,4 @@
-CREATE OR REPLACE TABLE demo_db.public.EMP_TABLE (
+CREATE OR REPLACE TABLE demo_db.public.Employee (
     emp_id INT PRIMARY KEY,
     first_name STRING,
     last_name STRING,
@@ -9,4 +9,5 @@ CREATE OR REPLACE TABLE demo_db.public.EMP_TABLE (
     department STRING,
     salary FLOAT,
     manager_id INT
+
 );
