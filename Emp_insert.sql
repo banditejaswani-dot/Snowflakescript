@@ -1,5 +1,5 @@
 -- Insert 20 sample records
-INSERT INTO GITDB.GITDSC.Employee (emp_id, first_name, last_name, email, phone_number, hire_date, job_title, department, salary, manager_id) VALUES
+INSERT INTO GIT_DB.GITDSC.Employee (emp_id, first_name, last_name, email, phone_number, hire_date, job_title, department, salary, manager_id) VALUES
 (1, 'Alice', 'Smith', 'alice.smith@example.com', '123-456-7890', '2020-01-15', 'Engineer', 'Engineering', 95000, 101),
 (2, 'Bob', 'Johnson', 'bob.johnson@example.com', '123-456-7891', '2019-03-22', 'Manager', 'Marketing', 105000, 102),
 (3, 'Charlie', 'Williams', 'charlie.williams@example.com', '123-456-7892', '2021-07-01', 'Analyst', 'Finance', 72000, 103),
@@ -20,5 +20,6 @@ INSERT INTO GITDB.GITDSC.Employee (emp_id, first_name, last_name, email, phone_n
 (18, 'Rachel', 'Hill', 'rachel.hill@example.com', '123-456-7907', '2016-09-09', 'Support', 'Customer Service', 64000, 107),
 (19, 'Steve', 'Scott', 'steve.scott@example.com', '123-456-7908', '2023-06-20', 'Intern', 'Marketing', 42000, 102),
 (20, 'Tina', 'Green', 'tina.green@example.com', '123-456-7909', '2020-02-28', 'Coordinator', 'Operations', 74000, 108);
+
 
 
